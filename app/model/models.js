@@ -1,6 +1,6 @@
 var UserMeta = require('./User.js'),
- ListMeta = require('./list.js'),
- EventMeta = require('./event.js'),
+ ListMeta = require('./List.js'),
+ EventMeta = require('./Event.js'),
     connection = require('../sequelize.js');
 
 var User = connection.define('users', UserMeta.attributes, UserMeta.options);
